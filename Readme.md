@@ -3,24 +3,25 @@
 A Meteor package for converting numbers into pretty strings with suffixes to indicate scale (Kilo, Mega, Giga, etc).
 
 ##Direct API Examples
+```js
+> NumScale.scale({value: 1000000000, maxLen: 5, powerOf: 10});
+'1G'
 
-  > NumScale.scale({value: 1000000000, maxLen: 5, powerOf: 10});
-  '1G'
+> NumScale.scale({value: 1073741824, maxLen: 5, powerOf: 2});
+'1G'
 
-  > NumScale.scale({value: 1073741824, maxLen: 5, powerOf: 2});
-  '1G'
+> NumScale.scale({value: 654345443, maxLen: 6});
+'654.3M'
 
-  > NumScale.scale({value: 654345443, maxLen: 6});
-  '654.3M'
-
-  > NumScale.scale({value: 43322466, maxLen: 7, powerOf: 2});
-  '41.316M'
+> NumScale.scale({value: 43322466, maxLen: 7, powerOf: 2});
+'41.316M'
+```
 
 ##Template Helper
-  
-  {{numScale <value> <maxLen> <powerOf>}}
-  {{numScale 1000000000 5 10}}
-  
+```html
+{{numScale <value> <maxLen> <powerOf>}}
+{{numScale 1000000000 5 10}}
+```
 
 ##Usage:
 
