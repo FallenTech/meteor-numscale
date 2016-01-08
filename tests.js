@@ -5,6 +5,6 @@ Tinytest.add('Instantiation', function (test) {
 });
 
 Tinytest.add('Scale Check', function (test) {
-  test.equal(NumScale.scale({value: 1000000000, maxLen: 5, powerOf: 10}), '1G', 'Scaling check 1 passed');
+  test.equal(NumScale.scale({value: 1000000000, maxLen: 5, powerOf: 10}), '1B', 'Scaling check 1 passed');
   test.equal(NumScale.scale({value: 654345443, maxLen: 6, powerOf: 10}), '654.3M', 'Scaling check 2 passed');
 });
