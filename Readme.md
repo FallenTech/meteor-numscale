@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/FallenTech/meteor-numscale.png?branch=master)](https://travis-ci.org/FallenTech/meteor-numscale)
 
-A Meteor package for converting numbers into pretty strings with suffixes to indicate scale (Kilo, Mega, Giga, etc).
+A Meteor package for converting numbers into pretty strings with suffixes to indicate scale (Kilo, Million, Billion, etc).
+Makes it super easy to display pretty numbers in your Meteor project.
 
 ## Direct API Examples
 ```js
