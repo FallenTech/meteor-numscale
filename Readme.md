@@ -1,8 +1,8 @@
-#NumScale
+# NumScale
 
 A Meteor package for converting numbers into pretty strings with suffixes to indicate scale (Kilo, Mega, Giga, etc).
 
-##Direct API Examples
+## Direct API Examples
 ```js
 > NumScale.scale({value: 1000000000, maxLen: 5, powerOf: 10});
 '1G'
@@ -17,13 +17,13 @@ A Meteor package for converting numbers into pretty strings with suffixes to ind
 '41.316M'
 ```
 
-##Template Helper
+## Template Helper
 ```html
 {{numScale <value> <maxLen> <powerOf>}}
 {{numScale 1000000000 5 10}}
 ```
 
-##Usage:
+## Usage:
 
 The scale() method takes an object argument.  The members of the argument object
 are as follows:
