@@ -1,5 +1,7 @@
 # NumScale
 
+[![Build Status](https://travis-ci.org/FallenTech/meteor-numscale.png?branch=master)](https://travis-ci.org/FallenTech/meteor-numscale)
+
 A Meteor package for converting numbers into pretty strings with suffixes to indicate scale (Kilo, Mega, Giga, etc).
 
 ## Direct API Examples
