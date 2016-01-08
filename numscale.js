@@ -4,7 +4,7 @@ NumScale = {
 
     var num = input.value,
         result = '',
-        suffixPowerDecimal = ['', 'K', 'M', 'B', 'T'],
+        suffixPowerDecimal = ['', 'K', 'M', 'B', 'T', 'Q'],
         suffixPowerBinary = ['', 'K', 'M', 'G', 'T', 'P'],
         suffix = null,
         index = 0, save = 0, divisor,
