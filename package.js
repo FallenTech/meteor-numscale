@@ -1,7 +1,7 @@
 Package.describe({
   name: 'fallentech:numscale',
   summary: 'Display big numbers with suffixes',
-  version: '0.0.3',
+  version: '0.0.4',
   git: 'https://github.com/FallenTech/meteor-numscale',
   documentation: 'Readme.md'
 });
